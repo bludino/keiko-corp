@@ -128,6 +128,41 @@
 	clear: both;
 }
 
+.app_features .details img {
+	height: 32px;
+	object-fit: none;
+}
+
+.app_features .details img.f1 {
+	object-position: 0 0;
+    width: 32px;
+}
+
+.app_features .details img.f2 {
+	object-position: -32px 0;
+    width: 36px;
+}
+
+.app_features .details img.f3 {
+	object-position: -68px 0;
+    width: 36px;
+}
+
+.app_features .details img.f4 {
+	object-position: -104px 0;
+    width: 32px;
+}
+
+.app_features .details img.f5 {
+	object-position: -136px 0;
+    width: 32px;
+}
+
+.app_features .details img.f6 {
+	object-position: -168px 0;
+    width: 36px;
+}
+
 
 
 
@@ -259,6 +294,26 @@ footer .app_platform li{
 
 footer .app_platform li:first-child{
 	margin: 0;
+}
+
+footer .app_platform li a img {
+	height: 38px;
+	object-fit: none;
+}
+
+footer .app_platform li a img.app_platform_android {
+	object-position: 0 0;
+	width: 33px;
+}
+
+footer .app_platform li a img.app_platform_ios {
+	object-position: -33px 0;
+	width: 29px;
+}
+
+footer .app_platform li a img.app_platform_windows {
+	object-position: -62px 0;
+	width: 40px;
 }
 
 footer .copyright{

@@ -383,6 +383,31 @@ a.app_link{
 	margin-left: 0;
 }
 
+.featured_on li img {
+	height: 45px;
+	object-fit: none;
+}
+
+.featured_on li img.featured_google {
+	object-position: -132px 0;
+    width: 130px;
+}
+
+.featured_on li img.featured_facebook {
+    object-position: 0 0;
+    width: 132px;
+}
+
+.featured_on li img.featured_yahoo {
+    object-position: -393px 0;
+    width: 131px;
+}
+
+.featured_on li img.featured_paypal {
+    object-position: -262px 0;
+    width: 131px;
+}
+
 
 
 
